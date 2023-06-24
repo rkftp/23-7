@@ -1,0 +1,28 @@
+git 설명서
+
+브렌치 이름
+master
+데스크탑 : desk
+노트북 : note
+
+브렌치 생성 : git branch 이름
+브렌티 이동 : git checkout 이름
+
+브렌치에 푸쉬
+git add 파일명.확장자
+
+커밋
+git commit -m "설명"
+
+갱신
+git push origin 브렌치 이름
+
+풀
+
+git checkout 브렌치 이름
+git pull
+
+브랜치 병합
+git checkout master
+git merge 병합당할 브렌치 이름
+git push origin master
